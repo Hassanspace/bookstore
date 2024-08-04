@@ -31,6 +31,7 @@ const Banner = () => {
               storytellers. Our shelves are filled with tales that transport you
               to magical realms, heroic quests, and far-off galaxies.
             </p>
+            <div>
             <label className="input input-bordered flex items-center gap-2  dark:bg-slate-900 dark:text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +44,8 @@ const Banner = () => {
               </svg>
               <input type="text" className="grow dark:bg-slate-950 dark:text-white" placeholder="Enter Mail and to Subscribe for new updates ...." />
             </label>
-            <button className="btn btn-active btn-primary font-medium text-white bg-purple-700 border-0 hover:bg-purple-800" onClick={notify}>Subscribe</button>
+            <button className="btn btn-active btn-primary font-medium text-white bg-purple-700 border-0 hover:bg-purple-800 mt-2" onClick={notify}>Subscribe</button>
+            </div>
             <ToastContainer />
           </div>
         </div>

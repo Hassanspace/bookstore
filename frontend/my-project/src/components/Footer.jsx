@@ -8,8 +8,8 @@ const Footer = () => {
         <footer className=" footer footer-center rounded-tl-[20px] rounded-tr-[20px] bg-base-100 text-base-content rounded p-10  dark:bg-slate-900 dark:text-white">
           <nav className="grid grid-flow-col gap-4">
             <a href="#top" className="link link-hover hover:no-underline">Back-to-top</a>
-            <a className="link link-hover hover:no-underline">Books</a>
-            <a className="link link-hover hover:no-underline">About Us</a>
+            <a href="/course" className="link link-hover hover:no-underline">Paid Books</a>
+            <a href="/about" className="link link-hover hover:no-underline">About Us</a>
             <a className="link link-hover hover:no-underline">Contact</a>
           </nav>
           <nav>
